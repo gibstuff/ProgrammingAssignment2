@@ -30,6 +30,7 @@ cacheSolve <- function(sentMatrix, ...)
   
   if (!is.null(cachedMatrix)) 
   {
+    message("getting cached data")
     return(cachedMatrix)
   }
   
